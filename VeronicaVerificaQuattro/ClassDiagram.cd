@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VeronicaVerificaQuattro.Studenti">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAABAAAAhAAAAAAAAAAAAFAAAA=</HashCode>
+      <FileName>Studenti.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_immatricolazione" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_esami" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="VeronicaVerificaQuattro.Immatricolazione">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAgAAAACAAAAAgAAIAAAAE=</HashCode>
+      <FileName>Immatricolazione.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_corsoLaurea" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VeronicaVerificaQuattro.CorsiLaurea">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CorsiLaurea.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_corsi" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="VeronicaVerificaQuattro.Corsi">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Corsi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VeronicaVerificaQuattro.Esami">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Esami.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_corso" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
